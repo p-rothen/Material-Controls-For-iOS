@@ -651,6 +651,12 @@
   [self updateState];
 }
 
+- (void)setTextAlignment:(NSTextAlignment)textAlignment {
+    _textAlignment = textAlignment;
+    self.textField.textAlignment = textAlignment;
+    self.textView.textAlignment = textAlignment;
+}
+
 - (void)setHighlightColor:(UIColor *)highlightColor {
   _highlightColor = highlightColor;
   [_dividerHolder setHighlightColor:_highlightColor];
