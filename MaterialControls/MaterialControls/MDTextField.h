@@ -86,7 +86,7 @@ IB_DESIGNABLE
 @property(null_unspecified, nonatomic) IBInspectable UIColor *disabledColor;
 @property(null_unspecified, nonatomic) IBInspectable UIColor *textColor;
 @property(null_unspecified, nonatomic) IBInspectable UIColor *hintColor;
-
+@property(assign, nonatomic) NSTextAlignment textAlignment;
 @property(nonatomic, getter=isEnabled) IBInspectable BOOL enabled;
 @property(nonatomic) IBInspectable BOOL autoComplete;
 @property(nonatomic) IBInspectable BOOL singleLine;
